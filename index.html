@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<title>Parasite</title>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		html,body {
+			background-color: #333;
+			color: #fff;
+			font-family: 'Droid Sans', helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+		}
+		
+		#canvas {
+			position: relative;
+			margin: auto;
+		}
+		.canvas_container {
+			width: 360px;
+			height: 480px;
+			border: 4px solid #cecece;
+			border-radius: 4px;
+			margin: 50px auto 0 auto;
+		}
+		.container{
+			width: 600px;
+			margin: 50px auto 0 auto;
+			text-align: center;
+			color: #cecece;
+		}
+		a{
+			color: #A33131;
+			text-decoration: none;
+			transition-property: color;
+			transition-duration: .2s;
+			transition-timing-function: linear;
+		}
+		a:hover{
+			color: #D1BABA;
+		}
+
+		blockquote{
+			margin: 50px 0px 50px 0px;
+			text-align: left;
+			line-height: 1.5em;
+			background-color: #424242;
+			padding: 20px;
+		}
+	</style>
+
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+	<script type="text/javascript" src="lib/game/main.js"></script>
+</head>
+<body>
+	<div class="canvas_container">
+		<canvas id="canvas"></canvas>
+	</div>
+	<div class="container">
+		<h4>Controls: Space - Continue; Directional Buttons - Movement</h4>
+		<p>Parasite is a "game" made using ImpactJS based on Octavia E. Butler's short story, "Bloodchild."</p>
+		<p>It is inspired by Austin Breed's <a href=http://www.newgrounds.com/portal/view/542658>Covetous</a> for the Ludum Mini-Dare 20. </p>
+		<p>Music by <a href="http://coelhealy.bandcamp.com/">Coel Healy</a> and <a href="http://jrtheories.webs.com/">Joe Reynolds</a>.
+		<p>More about me over <a href="http://kevinfiol.com/">here</a>. Let me know if you find any bugs!
+
+		<blockquote>
+		<p>
+			The purpose of this game was to create a gloomy, yet sentimental viewpoint of the concept of childbirth in Octavia Butler’s short story, while still retaining that initial sense of revulsion. This is to challenge the natural inclination to find the Tlic and grubs repulsive, which is damaging to the effort of mutual symbiosis between the Tlic and Terran. As T’Gatoi says, “How could I put my children into the care of one who hates them?”
+		</p>
+
+		<p>
+			The objective of the game is simple; as a grub, you must feed on parts of the hosts’ body – in this case, alluding to a male host in Bloodchild. Between each stage is a small section of a poem from the perspective of the grub. As the stages continue, the grub grows in size and must consume more parts. The use of “we” is to represent multiple grubs and a unified conscious. The metaphor of trees is used to draw a parallel to an organism that holds more sentimental value with humans. Towards the end, I use “I” in order to humanize and evoke sadness in the voice of a single grub. The tree metaphor is also used for the notion of dependence and growth from one larger base; the body of the host, in this case, takes the place of earth and soil. Additionally, trees have been demonstrated to form a network through root systems, effectively creating a colony, or one large unified entity.
+		</p>
+
+		<p>
+			Only as the grub grows does it understand that its host is its parent, and begins to feel remorse for consuming the body. Towards the end, the grub declares its innocence while also admitting its guilt, as it feels responsible for the death of the loved one who nurtured its growth. It pleads for them to live, as the screen cuts to red with a lingering static. At this point, the game remains on the red screen indefinitely; this is to characterize the ambiguous nature of death, but also suggest the bloody image of Tlic birth, or, grubs being removed from a host.
+		</p>
+		</blockquote>
+	</div>
+</body>
+</html>
